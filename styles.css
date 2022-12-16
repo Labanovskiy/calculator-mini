@@ -1,0 +1,101 @@
+header {
+    text-align: center;
+}
+body {
+    box-sizing: border-box;
+}
+
+.first {
+    width: 500px;
+    margin: 10px auto;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #f4f8fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+#number {
+    width: 60px;
+    height: 35px;
+    color: #039be5;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#range {
+    width: 100%;
+}
+
+.second {
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.label {
+    display: flex;
+    padding: 10px;
+}
+.second-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.note {
+    display: block;
+    font-style: italic;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #969696;
+}
+h2 {
+    font-size: 25px;
+}
+
+.rooms-radio {
+    opacity: 0;
+	appearance: none;
+	height: 0;
+	width: 0;
+	margin: 0;
+}
+.rooms-radi-fake {
+    display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #e2e2e2;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	cursor: pointer;
+}
+.rooms-radio:checked + .rooms-radi-fake{
+    background-color: #039be5;
+}
+
+.sum {
+    background-color: #e2e2e2;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: -10px 0px 25px rgba(143, 179, 195, 0.685);
+}
+.sum-name {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.sum-value {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
